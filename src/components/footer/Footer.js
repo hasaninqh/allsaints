@@ -1,9 +1,8 @@
 import React from 'react'
 import "./Footer.css";
-import Ofested from "../../images/all_saints_pre-school_hw_2016_17009022";
+import Ofested from "../../images/all_saints_pre-school_hw_2016_17009022.gif";
 //import HarrowCouncil from "/images/all_saints_pre-school_hw_2016_17009023";
 //import LearningAlliance  from "/images/all_saints_pre-school_hw_2016_17009025";
-import {  } from ""
 
 const Footer = () => {
   return (
