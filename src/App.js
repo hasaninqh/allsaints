@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import "./App.css";
 import {BrowserRouter,Route} from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer"
+import Header from "./components/Header/Header";
+import Footer from "./components/footer/Footer"
 import Home from "./components/Home";
 import Earlyyears from "./components/Earlyyears";
 import Ofested from "./components/Ofested";
@@ -14,12 +15,11 @@ import ContactUs from "./components/ContactUs";
 
 class App extends Component {
   render() {
-    return <BrowserRouter>
+    return (
+    <BrowserRouter>
         <div className="App">
           <div className="row blue lighten-5">
             <Header />
-
-       
             <div className="container s12 m6 l8 white">
               <Route exact path="/" component={Home} />
               <Route path="/Earlyyears" component={Earlyyears} />
@@ -31,11 +31,11 @@ class App extends Component {
               <Route path="/TermDates" component={TermDates} />
               <Route path="/ContactUs" component={ContactUs} />
             </div>
-       
             <Footer />
           </div>
         </div>
-      </BrowserRouter>; 
+    </BrowserRouter>
+    ) 
   }
 }
 
