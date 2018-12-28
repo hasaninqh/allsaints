@@ -1,7 +1,39 @@
+/* App.js Style */
 * { 
   margin: 0;
   padding: 0;
 }
+.mainWrapper{
+    height:190vh;
+    background-image: url("./images/all_saints_pre-school_hw_2016_17001012.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
 
+}
+.imagesWrapper{
+    display: flex;
+    flex-wrap: nowrap;
+}
 
+ img.circle {
+    display: inline-block;
+     margin: 10px;
+    padding: 10px;
+}
 
+/* Home.js Style */
+
+.homeWrapper {
+    padding:20px;
+    margin: 15px;
+
+}
+
+/* Earlyyears.js Style */
+
+.list{
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-type: decimal;
+}

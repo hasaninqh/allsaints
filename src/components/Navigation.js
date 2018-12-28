@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from "react-router-dom"
 const Navigation = () => {
   
   return (
@@ -7,15 +7,15 @@ const Navigation = () => {
     <nav className="nav-wrapper center s12 m12 l12 pink lighten-5 blue-text text-darken-4" sstyle={{textAlign: 'center'}}>
       
         <ul className="center blue-text text-lighten-4">
-          <li><a href="/" className="blue-text text-lighten-2">Home</a></li>
-          <li><a href="/" className="blue-text text-lighten-2">Early tyears foundation stage</a></li>
-          <li><a href="/" className="blue-text text-lighten-2">Ofsted</a></li>
-          <li><a href="/" className="blue-text text-lighten-2">Funding</a></li>
-          <li><a href="/" className="blue-text text-lighten-2">Testimonials</a></li>
-          <li><a href="/" className="blue-text text-lighten-2">Fundraising</a></li>
-          <li><a href="/" className="blue-text text-lighten-2">Gallery</a></li>
-          <li><a href="/" className="blue-text text-lighten-2">Term Dates</a></li>
-          <li><a href="/" className="blue-text text-lighten-2">Contact Us</a></li>
+          <li><Link to="/" className="blue-text text-lighten-2">Home</Link></li>
+          <li><Link to="/Earlyyears" className="blue-text text-lighten-2">Early tyears foundation stage</Link></li>
+          <li><Link to="/Ofested" className="blue-text text-lighten-2">Ofsted</Link></li>
+          <li><Link to="/Funding" className="blue-text text-lighten-2">Funding</Link></li>
+          <li><Link to="/" className="blue-text text-lighten-2">Testimonials</Link></li>
+          <li><Link to="/Fundraising" className="blue-text text-lighten-2">Fundraising</Link></li>
+          <li><Link to="/" className="blue-text text-lighten-2">Gallery</Link></li>
+          <li><Link to="/Termdates" className="blue-text text-lighten-2">Term Dates</Link></li>
+          <li><Link to="/Contactus" className="blue-text text-lighten-2">Contact Us</Link></li>
         </ul>
     
    </nav> 

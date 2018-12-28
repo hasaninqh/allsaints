@@ -1,5 +1,7 @@
-.footer{
-    
-    padding:5px;
+ .foot{
+    padding-top:10px;
     margin:0
+}
+.footer-copyright{
+    text-align: center;
 }
