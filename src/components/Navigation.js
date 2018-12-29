@@ -11,7 +11,7 @@ const Navigation = () => {
           <li><Link to="/Earlyyears" className="blue-text text-lighten-2">Early tyears foundation stage</Link></li>
           <li><Link to="/Ofested" className="blue-text text-lighten-2">Ofsted</Link></li>
           <li><Link to="/Funding" className="blue-text text-lighten-2">Funding</Link></li>
-          <li><Link to="/" className="blue-text text-lighten-2">Testimonials</Link></li>
+          <li><Link to="/Testimonials" className="blue-text text-lighten-2">Testimonials</Link></li>
           <li><Link to="/Fundraising" className="blue-text text-lighten-2">Fundraising</Link></li>
           <li><Link to="/" className="blue-text text-lighten-2">Gallery</Link></li>
           <li><Link to="/Termdates" className="blue-text text-lighten-2">Term Dates</Link></li>
