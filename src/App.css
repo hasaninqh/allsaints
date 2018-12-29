@@ -37,3 +37,8 @@
     list-style-position: inside;
     list-style-type: decimal;
 }
+/* nav bar */
+.fixed-nav-top{
+    position: fixed;
+    top: 0;
+}

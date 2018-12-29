@@ -2,8 +2,8 @@ import React from 'react';
 import "../App.css";
 const Main = () => {
   return (
-  <div class="row">
-      <div class="col s12 homeWrapper">
+  <div className="row">
+      <div className="col s12 homeWrapper">
         <h5 className="blue-text text-lighten-2">Welcome to All Saints Pre-School Online</h5>     
           <p className="grey-text text-darken-2">
           We are a voluntary Church of England pre-school based in an accessible for all, single story Church hall in a residential area. We welcome all faiths and support children with different needs.
