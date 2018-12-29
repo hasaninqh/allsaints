@@ -3,7 +3,7 @@ import React from 'react'
 const Testimonials = () => {
   return (
     <div className="col s12 homeWrapper">
-       <h5 className="blue-text text-lighten-2">Testimonials</h5>
+           <h5 className="blue-text text-lighten-2">Testimonials</h5>
                 <p className="grey-text text-darken-2">
                     We have been regularly collecting evidence quotes from parents twice a year.
                     From end of first Term: 
