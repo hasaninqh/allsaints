@@ -6,9 +6,16 @@ const Navigation = ({ fixedNav }) => {
   return (
     <nav
       className={fixedNav ? classes + " fixed-nav-top" : classes}
-      sstyle={{ textAlign: "center" }}
+      style={{ textAlign: "center" }}
     >
       <ul className="center blue-text text-lighten-4">
+        {fixedNav && (
+          <li>
+            <Link to="/" className="blue-text text-lighten-2">
+              IMAGE
+            </Link>
+          </li>
+        )}
         <li>
           <Link to="/" className="blue-text text-lighten-2">
             Home

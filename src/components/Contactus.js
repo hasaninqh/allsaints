@@ -33,20 +33,20 @@ const Contactus = () => {
 
 
 
-      <div class="col s12 m7 l6">
-          <h5 class="header blue-text text-lighten-2">By Post</h5>
-          <div class="card horizontal">
-            <div class="card-image">
+      <div className="col s12 m7 l6">
+          <h5 className="header blue-text text-lighten-2">By Post</h5>
+          <div className="card horizontal">
+            <div className="card-image">
                <img src={Building} alt="Allsiants pre-school building"/>
             </div>
-            <div class="card-stacked">
-               <div class="card-content">
+            <div className="card-stacked">
+               <div className="card-content">
                    <p className="grey-text text-darken-2">Blackwell Hall,</p> 
                    <p className="grey-text text-darken-2"> 90 Uxbridge Road</p>
                    <p className="grey-text text-darken-2">Harrow Weald,</p>
                    <p className="grey-text text-darken-2">HA3 6DQ</p>
                </div>
-               <div class="card-action">
+               <div className="card-action">
                   <a href="https://www.google.co.uk/maps/place/90+Uxbridge+Rd/@51.611969,-0.3352911,17z/data=!3m1!4b1!4m2!3m1!1s0x4876148920455fed:0x41c6d3cee5200a6c">Find Us on Google Map</a>
                </div>
             </div>
@@ -54,16 +54,16 @@ const Contactus = () => {
           
       </div>
       <div className="col s12 m7 l6 ">
-       <h5 class="header blue-text text-lighten-2">Other Links</h5>
+       <h5 className="header blue-text text-lighten-2">Other Links</h5>
           <div className="card horizontal">
-            <div class="card-image">
+            <div className="card-image">
                <a href="https://www.facebook.com/pages/All-Saints-Preschool-Harrow-Weald/784189691667551"><img src={Facebook} alt="face book logo"/></a>
             </div>
-            <div class="card-stacked">
-                <div class="card-content">
+            <div className="card-stacked">
+                <div className="card-content">
                     <a href="https://www.facebook.com/pages/All-Saints-Preschool-Harrow-Weald/784189691667551">Our Face Book</a>
                 </div>
-               <div class="card-action">
+               <div className="card-action">
                   <ul>
                       <li className="collection-item"><a href="https://blackwellhall.com/">Visit The Blackwell Hall Website</a></li>
                       <li className="collection-item"><a href="http://www.ashw.org.uk/">Visit All Saints Harrow Weald Church Website</a></li>

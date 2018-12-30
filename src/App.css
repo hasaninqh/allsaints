@@ -1,4 +1,5 @@
 /* App.js Style */
+@import './App.scss'; 
 * { 
   margin: 0;
   padding: 0;
@@ -41,4 +42,5 @@
 .fixed-nav-top{
     position: fixed;
     top: 0;
+    z-index: 100;
 }
