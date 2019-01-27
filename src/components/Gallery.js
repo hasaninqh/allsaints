@@ -76,7 +76,7 @@ export default class Gallery extends Component {
                  <img src={image2} alt="Cinque Terre" width="600" height="400" onClick={this.handleClick.bind(this)} />
                  <div id="myModal" class="modal" ref={modal=>{this.myModal=modal}}>
                        {/* The Close Button */}
-                       <span class="close" onClick={this.handleClose}>&times;</span>
+                       <span class="close" onClick={this.handleClose.bind(this)}>&times;</span>
                        {/* Modal Content (The Image) */}
                        <img src={image2} class="modal-content" id="img01" alt="children" />
                        {/* Modal Caption (Image Text) */}
@@ -88,15 +88,14 @@ export default class Gallery extends Component {
           <div class="responsive">
            <div class="gallery">
                 <img src={image3} alt="Cinque Terre" width="600" height="400" onClick={this.handleClickOpen} />
-                 <Dialog
-                  onClose={this.handleClose}
-                  aria-labelledby="customized-dialog-title"
-                  open={this.state.open}
-                  >
-                     <DialogContent>
-                        <img src={image3} alt="Cinque Terre" />
-                     </DialogContent>
-                  </Dialog>
+                <div id="myModal" class="modal" ref={modal=>{this.myModal=modal}}>
+                       {/* The Close Button */}
+                       <span class="close" onClick={this.handleClose.bind(this)}>&times;</span>
+                       {/* Modal Content (The Image) */}
+                       <img src={image3} class="modal-content" id="img01" alt="children" />
+                       {/* Modal Caption (Image Text) */}
+                     
+                  </div>
            </div>
           </div> 
 
