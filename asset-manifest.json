@@ -1,7 +1,7 @@
 {
   "main.css": "/allsaints/static/css/main.51a07bae.chunk.css",
-  "main.js": "/allsaints/static/js/main.485a95cd.chunk.js",
-  "main.js.map": "/allsaints/static/js/main.485a95cd.chunk.js.map",
+  "main.js": "/allsaints/static/js/main.e084b05f.chunk.js",
+  "main.js.map": "/allsaints/static/js/main.e084b05f.chunk.js.map",
   "static/js/1.bea85222.chunk.js": "/allsaints/static/js/1.bea85222.chunk.js",
   "static/js/1.bea85222.chunk.js.map": "/allsaints/static/js/1.bea85222.chunk.js.map",
   "runtime~main.js": "/allsaints/static/js/runtime~main.02cb0117.js",
@@ -26,6 +26,6 @@
   "static/media/all_saints_pre-school_hw_2016_17007005.jpg": "/allsaints/static/media/all_saints_pre-school_hw_2016_17007005.e9482109.jpg",
   "static/css/main.51a07bae.chunk.css.map": "/allsaints/static/css/main.51a07bae.chunk.css.map",
   "index.html": "/allsaints/index.html",
-  "precache-manifest.a584b8863dae931c78d7086a8dc6cdda.js": "/allsaints/precache-manifest.a584b8863dae931c78d7086a8dc6cdda.js",
+  "precache-manifest.9216fab9beeb663e6b682dc1b6e36388.js": "/allsaints/precache-manifest.9216fab9beeb663e6b682dc1b6e36388.js",
   "service-worker.js": "/allsaints/service-worker.js"
 }
