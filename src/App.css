@@ -40,8 +40,7 @@
 }
 /* nav bar */
 .navWrapper{
-  width: 100%;
-  background-color: red;
+  width:100%;
 }
 .fixed-nav-top{
     position: fixed;
@@ -50,7 +49,7 @@
 }
 .navList{
   width: 100%;
-  background-color: aqua;
+
 }
 @media only screen and (max-width: 1009px) {
   .navList li{
