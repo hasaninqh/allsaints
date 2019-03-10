@@ -49,15 +49,18 @@
 }
 .navList{
   width: 100%;
+  background-color: red!important ;
+
 
 }
-@media only screen and (max-width: 1009px) {
-  .navList li{
+ @media only screen and (max-width: 1009px) {
+  /* .navList li{
     width:100%
-  }
+  } */ */
   .navWrapper{
     text-align: left;
   }
+  
 }
 
 /* Gallery Style */
@@ -168,4 +171,24 @@ div.gallery {
     content: "";
     display: table;
     clear: both;
+  }
+  /**term dates style**/
+  .termDates-header{
+    color: rgb(219, 58, 58);
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline-block;
+    border-bottom: solid 3px rgb(219, 58, 58);
+    padding-bottom: 3px; 
+    margin: 10px 0px;
+  }
+  
+  span:only-child{
+    border: solid 0px white;
+  }
+
+  i{
+    color:  rgb(219, 58, 58);;
   }

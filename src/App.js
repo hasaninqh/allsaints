@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import "./App.scss";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch} from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/footer/Footer";
 import Home from "./components/Home";
@@ -21,12 +21,15 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div className="App">
-          <div className="row blue lighten-5">
+        <div className="App blue lighten-5">
+          <div className="blue lighten-5">
+            
+         
             <Header />
-            <div className="container s12 m6 l8 white mainWrapper">
-              <div className="container s12">
-                <div id="imagesWrapper" className="s12 center hide-on-med-and-down">
+             
+            <div className="container s12 m6 l8 white">
+              {/* <div className="container s12"> */}
+                <div id="imagesWrapper" className="s12 center">
                   <img
                     src={Child1}
                     alt="child image1"
@@ -43,8 +46,9 @@ class App extends Component {
                     className="circle z-depth-5"
                   />
                 </div>
-              </div>
-              <Route exact path="/Home" component={Home} />
+              {/* </div>/ */}
+            <Switch>
+              <Route exact path="/" component={Home} />
               <Route path="/Earlyyears" component={Earlyyears} />
               <Route path="/Ofested" component={Ofested} />
               <Route path="/Funding" component={Funding} />
@@ -53,11 +57,9 @@ class App extends Component {
               <Route path="/Gallery" component={Gallery} />
               <Route path="/Termdates" component={Termdates} />
               <Route path="/Contactus" component={Contactus} />
-
+            </Switch> 
               <div className="center">
-                <h6 className="pink-text text-lighten-3">
-                  We are accepting vacancies for September 2017 Intake
-                </h6>
+               
                 <img
                   src={DisableFriendly}
                   alt="Deasable Friendly"

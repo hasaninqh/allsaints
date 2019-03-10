@@ -13,9 +13,9 @@ export default class Ofested extends Component {
       </p>
       <br/>
       <p className="grey-text text-darken-2">
-        All Saints Preschool are allowed sixteen children per session. 
-        This limit is set by Ofsted Early Years, (who we are regularly inspected by) & we are governed by the size of the room & the number of staff we have. 
-        The ratio must be 1:8, the ratio is 1:8 for 3/4 year olds, and 1:4 for 2 year olds .
+      All Saints All Saints Preschool is regularly inspected by Ofsted Early Years. 
+      We are governed by the size of the room & the number of staff we have. The ratio must be 1:8,
+      the ratio is 1:8 for 3/4 year olds, and 1:4 for 2 year olds.
       </p>
       <br/>
       <p className="grey-text text-darken-2">

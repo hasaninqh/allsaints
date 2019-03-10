@@ -1,14 +1,18 @@
-import React from "react";
+import React, {Fragment} from "react";
 import { Link } from "react-router-dom";
 
 const Navigation = ({ fixedNav }) => {
   let classes = "pink lighten-5 blue-text text-darken-4";
   return (
-    <nav
+    <Fragment>
+     <nav
       className={fixedNav ? classes + " fixed-nav-top" : classes}
       style={{ textAlign: "center" }}
-    >
-      <ul className="navList center blue-text text-lighten-4 s12 m12 l12">
+     >
+     <div class="nav-wrapper">
+       
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul className="navList center blue-text text-lighten-4 s12 m12 l12  hide-on-med-and-down">
         {fixedNav && (
           <li>
             <Link to="/" className="blue-text text-lighten-2">
@@ -17,7 +21,7 @@ const Navigation = ({ fixedNav }) => {
           </li>
         )}
         <li>
-          <Link to="/Home" className="blue-text text-lighten-2">
+          <Link to="/" className="blue-text text-lighten-2">
             Home
           </Link>
         </li>
@@ -62,7 +66,57 @@ const Navigation = ({ fixedNav }) => {
           </Link>
         </li>
       </ul>
+      </div>
     </nav>
+   
+      <ul class="sidenav" id="mobile-demo">
+        <li>
+            <Link to="/" className="blue-text text-lighten-2">
+              Home
+            </Link>
+        </li>
+        <li>
+            <Link to="/Earlyyears" className="blue-text text-lighten-2">
+              Early tyears foundation stage
+            </Link>
+        </li>
+        <li>
+            <Link to="/Ofested" className="blue-text text-lighten-2"> 
+              Ofsted
+            </Link>
+        </li>
+        <li>
+            <Link to="/Funding" className="blue-text text-lighten-2">
+              Funding
+            </Link>
+        </li>
+        <li>
+          <Link to="/Testimonials" className="blue-text text-lighten-2">
+            Testimonials
+          </Link>
+        </li>
+        <li>
+          <Link to="/Fundraising" className="blue-text text-lighten-2">
+            Fundraising
+          </Link>
+        </li>
+        <li>
+          <Link to="/Gallery" className="blue-text text-lighten-2">
+            Gallery
+          </Link>
+        </li>
+        <li>
+          <Link to="/Termdates" className="blue-text text-lighten-2">
+            Term Dates
+          </Link>
+        </li>
+        <li>
+          <Link to="/Contactus" className="blue-text text-lighten-2">
+            Contact Us
+          </Link>
+        </li>
+      </ul>
+    </Fragment>
   );
 };
 

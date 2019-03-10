@@ -4,32 +4,43 @@ const Termdates = () => {
   return (
     <div className="col s12 homeWrapper">
        <h5 className="blue-text text-lighten-2">Term Dates</h5>
-        <p className="grey-text text-darken-2"> Term Dates for next Year Sept 2016- July 2017</p>
+        <p className="grey-text text-darken-2"> Term Dates for next Year Sept 2018 - July 2019</p>
          <br/>
+         <span className="termDates-header">Autumn Term</span><br/>
+         <i>Monday 3rd Sept setting up (No Children in)</i>
           <ul  className=" list grey-text text-darken-2">
-            <li><i class=" tiny material-icons">child_care</i>Tuesday 6 Sept –Fri 21 Oct 7 weeks</li>
-            <li><i class=" tiny material-icons">child_care</i>Mon 24 Oct – Fri 28 Oct 1 week half term closed</li>
-            <li><i class=" tiny material-icons">child_care</i>Mon 31 Oct – Fri 16 Dec 7 weeks</li>
-            <li><i class=" tiny material-icons">child_care</i>Mon 14 Dec – Fri 1 Jan 3 weeks Christmas closed</li>
-            <li><i class=" tiny material-icons">child_care</i>Tuesday 10 Jan –Fri 10 Feb 5 weeks</li>
-            <li><i class=" tiny material-icons">child_care</i>Mon 13 Feb – Fri 17 Feb 1 week half term closed</li>
-            <li><i class=" tiny material-icons">child_care</i>Mon 20 Feb – Fri 31 Mar 6 weeks</li>
-            <li><i class=" tiny material-icons">child_care</i>Mon 3 April – Tues 18 Apr 2 weeks Easter closed</li>
-            <li><i class=" tiny material-icons">child_care</i>Wednesday 19 Apr – Fri 25 May 6 weeks</li>
-            <li><i class=" tiny material-icons">child_care</i>CLOSED Mon 1 May May Day</li>
-            <li><i class=" tiny material-icons">child_care</i>Mon 29 May – Fri 2 June 1 week half term closed</li>
-            <li><i class=" tiny material-icons">child_care</i>Mon 5 Jun – Thur 20 Jul 7 weeks</li>
+            <li><i class=" tiny material-icons">child_care</i>Tuesday 4 Sept – Fri 19 Oct </li>
+            <li><i class=" tiny material-icons">child_care</i>Mon 22 Oct – Fri 26 Oct 1 week half term closed</li>
+            <li><i class=" tiny material-icons">child_care</i>Mon 29 Oct – Fri 14 Dec </li>
+            <li><i class=" tiny material-icons">child_care</i>Mon 17 Dec – Fri 4 Jan  3 weeks Christmas closed</li>
+          </ul> 
+          <span className="termDates-header">Spring Term</span><br/>
+          <i>Monday 7th Jan setting up (No Children in)</i>
+          <ul  className=" list grey-text text-darken-2"> 
+            <li><i class=" tiny material-icons">child_care</i>Tuesday 8 Jan –Fri 15 Feb </li>
+            <li><i class=" tiny material-icons">child_care</i>Mon 18 Feb – Fri 22 Feb 1 week half term closed</li>
+            <li><i class=" tiny material-icons">child_care</i>Mon 25 Feb – Fri 5 April </li>
+            <li><i class=" tiny material-icons">child_care</i>Fri 8 April – Fri 19 Apr 2 weeks Easter closed</li>
+          </ul>  
+          <span className="termDates-header">Summer Term</span><br/>
+          <i>Monday 22 April & 3rd June setting up (No Children in)</i>
+          <ul  className=" list grey-text text-darken-2"> 
+            <li><i class=" tiny material-icons">child_care</i>Tue 23 Apr – Fri 24 May </li>
+            <li><i class=" tiny material-icons">child_care</i>6th May is a Bank Holiday</li>
+            <li><i class=" tiny material-icons">child_care</i>Mon 27 May – 31 May 1 week half term closed</li>
+            <li><i class=" tiny material-icons">child_care</i>Tues 4 Jun – Fri 12 Jul</li>
           </ul>
            <br/>
            <p className="grey-text text-darken-2">
-               All children and parents are all invited to the Friday mornings Party Days. 
+               <span className="termDates-header">*</span>All children and parents are all invited to the Friday mornings Party Days. 
                All younger siblings and parents only. Sorry no other relations invited.
            </p>
            <br/>
            <ul className=" list grey-text text-darken-2">
-                <li><i class=" tiny material-icons">child_care</i>Christmas Party Friday 16 Dec</li>
-                <li><i class=" tiny material-icons">child_care</i>Easter Party Friday 31 March</li>
-                <li><i class=" tiny material-icons">child_care</i>Leavers Party Thur 20 July</li>
+                <li><i class=" tiny material-icons">child_care</i>Christmas Party<span>  </span>Friday 14 Dec</li>
+                <li><i class=" tiny material-icons">child_care</i>Easter Party<span>  </span>Friday 5th March</li>
+                <li><i class=" tiny material-icons">child_care</i>Bank Holiday<span>  </span>Monday 6th May</li>
+                <li><i class=" tiny material-icons">child_care</i>Leavers Party<span>  </span>Friday 12 July</li>
            </ul>
 
    </div>

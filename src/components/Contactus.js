@@ -24,7 +24,7 @@ const Contactus = () => {
        </p>
         <br/>
        <p className="grey-text text-darken-2">
-         Ann Nash - All Saints Pre-School Manager
+          Deepa Sharma - All Saints Pre-School Manager
        </p>
        <br/>
        <p className="grey-text text-darken-2"><i className="small material-icons">phone_iphone</i>:07531511388</p>

@@ -11,30 +11,30 @@ const Earlyyears = () => {
       Learning Journeys, which are written and pictorial evidence of their progression, development and achievements and records, are kept of all children by their key person to help their further development these records are kept confidential between parent/carer and staff, which we hope you will add too as well, 
       while your child is in the pre-school.
       </p>
-      <p className="grey-text text-darken-2">When they move onto their next setting, nursery or reception class,
+      <p className="grey-text text-darken-2">When they move onto their next setting, nursery or reception className,
        the key worker and parents together fill out a ‘Next Steps for Learning’ to ensure continuity of education.
       </p>
       <br/>
       <p className="grey-text text-darken-2">The Prime areas are fundamental, work together and move through to support development in all other areas, they are:</p>
          <ul className=" list grey-text text-darken-2">
-            <li className="list"><i class=" tiny material-icons">child_care</i>Personal, social and emotional development.</li>
-            <li className="list"><i class=" tiny material-icons">child_care</i>Communication and language.</li>
-            <li className="list"><i class=" tiny material-icons">child_care</i>Physical development.</li>
+            <li className="list"><i className=" tiny material-icons">child_care</i>Personal, social and emotional development.</li>
+            <li className="list"><i className=" tiny material-icons">child_care</i>Communication and language.</li>
+            <li className="list"><i className=" tiny material-icons">child_care</i>Physical development.</li>
           </ul>   
          <br/>
       <p className="grey-text text-darken-2">The specific areas include essential skills and knowledge for children to participate successfully in society, they are:</p>
           <ul className="list grey-text text-darken-2">
-            <li className="list"><i class=" tiny material-icons">child_care</i>Literacy</li>
-            <li className="list"><i class=" tiny material-icons">child_care</i>Mathematics.</li>
-            <li className="list"><i class=" tiny material-icons">child_care</i>Understanding of the World.</li>
-            <li><i class=" tiny material-icons">child_care</i>Expressive Arts and Design</li>
+            <li className="list"><i className=" tiny material-icons">child_care</i>Literacy</li>
+            <li className="list"><i className=" tiny material-icons">child_care</i>Mathematics.</li>
+            <li className="list"><i className=" tiny material-icons">child_care</i>Understanding of the World.</li>
+            <li><i className=" tiny material-icons">child_care</i>Expressive Arts and Design</li>
           </ul>
           <br/>
       <p className="grey-text text-darken-2">The principles which guide the work of all early years practioners are grouped into four themes:</p>
           <ul className="list grey-text text-darken-2">
-             <li className="list"><i class=" tiny material-icons">child_care</i>A unique child.</li>
-             <li className="list"><i class=" tiny material-icons">child_care</i>Positive relationships.</li>
-             <li className="list"><i class=" tiny material-icons">child_care</i>Learning and development.</li>
+             <li className="list"><i className=" tiny material-icons">child_care</i>A unique child.</li>
+             <li className="list"><i className=" tiny material-icons">child_care</i>Positive relationships.</li>
+             <li className="list"><i className=" tiny material-icons">child_care</i>Learning and development.</li>
            </ul>
            <br/>
            <p className="grey-text text-darken-2">2yr old progress checks.</p>
