@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import "./App.scss";
-import { BrowserRouter, Route, Switch} from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/footer/Footer";
 import Home from "./components/Home";
@@ -20,46 +20,46 @@ import DisableFriendly from "./images/all_saints_pre-school_hw_2016_17001010.jpg
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="App blue lighten-5">
           <div className="blue lighten-5">
-            
-         
+
+
             <Header />
-             
+
             <div className="container s12 m6 l8 white">
               {/* <div className="container s12"> */}
-                <div id="imagesWrapper" className="s12 center">
-                  <img
-                    src={Child1}
-                    alt="child image1"
-                    className="circle z-depth-5"
-                  />
-                  <img
-                    src={Child2}
-                    alt="child image2"
-                    className="circle z-depth-5"
-                  />
-                  <img
-                    src={Child3}
-                    alt="child image3"
-                    className="circle z-depth-5"
-                  />
-                </div>
+              <div id="imagesWrapper" className="s12 center">
+                <img
+                  src={Child1}
+                  alt="child image1"
+                  className="circle z-depth-5"
+                />
+                <img
+                  src={Child2}
+                  alt="child image2"
+                  className="circle z-depth-5"
+                />
+                <img
+                  src={Child3}
+                  alt="child image3"
+                  className="circle z-depth-5"
+                />
+              </div>
               {/* </div>/ */}
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/Earlyyears" component={Earlyyears} />
-              <Route path="/Ofested" component={Ofested} />
-              <Route path="/Funding" component={Funding} />
-              <Route path="/Testimonials" component={Testimonials} />
-              <Route path="/Fundraising" component={Fundraising} />
-              <Route path="/Gallery" component={Gallery} />
-              <Route path="/Termdates" component={Termdates} />
-              <Route path="/Contactus" component={Contactus} />
-            </Switch> 
+              <Switch>
+                <Route exact path="/" component={Home} />
+                <Route path="/Earlyyears" component={Earlyyears} />
+                <Route path="/Ofested" component={Ofested} />
+                <Route path="/Funding" component={Funding} />
+                <Route path="/Testimonials" component={Testimonials} />
+                <Route path="/Fundraising" component={Fundraising} />
+                <Route path="/Gallery" component={Gallery} />
+                <Route path="/Termdates" component={Termdates} />
+                <Route path="/Contactus" component={Contactus} />
+              </Switch>
               <div className="center">
-               
+
                 <img
                   src={DisableFriendly}
                   alt="Deasable Friendly"
@@ -71,7 +71,7 @@ class App extends Component {
             <Footer />
           </div>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
