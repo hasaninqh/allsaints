@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/allsaints/static/media/all_saints_pre-school_hw_2016_17007008.d27dc02d.jpg"
   },
   {
-    "revision": "799a5006847b29705250",
-    "url": "/allsaints/static/css/main.56718768.chunk.css"
+    "revision": "0dc79f35b07837171657",
+    "url": "/allsaints/static/css/main.ec8e5c95.chunk.css"
   },
   {
     "revision": "efe89a2d7a256cdd52b4",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/allsaints/static/media/all_saints_pre-school_hw_2016_17007007.981fa042.jpg"
   },
   {
-    "revision": "799a5006847b29705250",
-    "url": "/allsaints/static/js/main.799a5006.chunk.js"
+    "revision": "0dc79f35b07837171657",
+    "url": "/allsaints/static/js/main.0dc79f35.chunk.js"
   },
   {
     "revision": "0593efb6f0e806f39461bfb0864c7175",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/allsaints/static/media/all_saints_pre-school_hw_2016_17007005.e9482109.jpg"
   },
   {
-    "revision": "8c90b20f9a1588d271341b6e338dae47",
+    "revision": "c6204da205c70034501ed343b3b85db5",
     "url": "/allsaints/index.html"
   }
 ];
