@@ -11,7 +11,7 @@ export default class Header extends Component {
   scrollHandler = () => {
     if (!this.fixedNav && this.navRef.current.getBoundingClientRect().top < -200) {
       this.setState({ fixedNav: true });
-    }else{
+    } else {
       this.setState({ fixedNav: false });
     }
   };
