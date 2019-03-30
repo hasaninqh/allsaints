@@ -3,6 +3,7 @@
 * { 
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .mainWrapper{
     height:202vh;
@@ -124,6 +125,9 @@
   .modal-content {
     width: 100%;
   }
+  .sm-col-bg{
+    background-color: #fff;
+  }
 }
 div.gallery {
     border: 1px solid #ccc;
@@ -141,10 +145,6 @@ div.gallery {
   div.desc {
     padding: 15px;
     text-align: center;
-  }
-  
-  * {
-    box-sizing: border-box;
   }
   
   .responsive {

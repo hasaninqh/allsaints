@@ -41,9 +41,9 @@ const Earlyyears = () => {
       <p className="grey-text text-darken-2"> 
         The Early Years Foundation Stage (EYFS) requires that parents and carers must be 
         supplied with a short written summery of their child’s development in the three prime learning and development areas of the EYFS: Personal, 
-        Social and Emotional Development, Physical Development and Communication and Language, when the child is aged between 24
-        In accordance with the Local Authority we carry out and record a two year old progress check on the three areas with the support of the parents/carers,
-        this is photo copied, with one copy for your child’s progress file, 
+        Social and Emotional Development, Physical Development and Communication and Language, when the child is aged between 24.
+        In accordance with the Local Authority, we carry out and record a two year old progress check on the three areas with the support of the parents/carers.
+        This is photo copied with one copy for your child’s progress file, 
         one copy for your red book and one copy is sent to a Health Visitor.
       </p> 
    

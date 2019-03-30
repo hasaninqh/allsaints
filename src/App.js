@@ -21,12 +21,9 @@ class App extends Component {
   render() {
     return (
       <HashRouter>
-        <div className="App blue lighten-5">
-          <div className="blue lighten-5">
-
-
+        <div className="blue lighten-5 sm-col-bg">
+          <div className="sm-col-bg">
             <Header />
-
             <div className="container s12 m6 l8 white">
               {/* <div className="container s12"> */}
               <div id="imagesWrapper" className="s12 center">

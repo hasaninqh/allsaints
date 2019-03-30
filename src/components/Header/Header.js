@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Navigation from "../Navigation";
 import Logo from "../../images/all_saints_pre-school_hw_2016_17009026.png";
 
-import "./Header.css";
 export default class Header extends Component {
   state = {
     fixdeNav: false

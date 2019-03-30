@@ -7,8 +7,11 @@ const Funding = () => {
        <p className="grey-text text-darken-2">
             Copyright (C) 2015 All Saints Pre-School Harrow Weald, Inc. 
             All Rights Reserved Funding If you are in receipt of benefits when your child is 2yrs old, 
-            there is funding for up to 15 hours a week for 38 weeks of the year.............you need to fill in the appropriate paper work when your child starts and provide the appropriate evidence asked by the local authority. 
+            there is funding for up to 15 hours a week for 38 weeks of the year; you need to fill in the appropriate paper work when your child starts and provide the appropriate evidence asked by the local authority. 
             We take funded children from the term after their 2nd birthday and funded 3/4 year olds.
+       </p>
+       <p>
+            For non-funded children, at present, we charge £19.50 per session.
        </p>
        <br/>
        <p className="grey-text text-darken-2">

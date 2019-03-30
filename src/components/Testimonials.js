@@ -63,7 +63,7 @@ const Testimonials = () => {
                 <hr/>
                
                 
-                <h5 className="blue-text text-lighten-2">Parents comments in their children's Transudation Documents:</h5>
+                <h5 className="blue-text text-lighten-2">Parents comments in their children's progress report</h5>
                     <p className="grey-text text-darken-2">
                     'I am so pleased...on how far she has come from where she started'
                     </p>
