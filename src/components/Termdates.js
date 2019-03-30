@@ -28,7 +28,7 @@ const Termdates = () => {
             <li><i class=" tiny material-icons">child_care</i>Tue 23 Apr – Fri 24 May </li>
             <li><i class=" tiny material-icons">child_care</i>6th May is a Bank Holiday</li>
             <li><i class=" tiny material-icons">child_care</i>Mon 27 May – 31 May 1 week half term closed</li>
-            <li><i class=" tiny material-icons">child_care</i>Tues 4 Jun – Fri 12 Jul</li>
+            <li><i class=" tiny material-icons">child_care</i>Tues 4 Jun – Fri 19 Jul</li>
           </ul>
            <br/>
            <p className="grey-text text-darken-2">

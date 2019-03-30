@@ -27,9 +27,9 @@ const Contactus = () => {
           Deepa Sharma - All Saints Pre-School Manager
        </p>
        <br/>
-       <p className="grey-text text-darken-2"><i className="small material-icons">phone_iphone</i>:07531511388</p>
-       <p className="grey-text text-darken-2"><i className="material-icons">phone</i>:0208 954 9061</p>
-
+       <p className="grey-text text-darken-2"><i className="material-icons">phone_iphone</i>: 07531511388</p>
+       <p className="grey-text text-darken-2"><i className="material-icons">phone</i>: 0208 954 9061</p>
+       <p className="grey-text text-darken-2"><i className="material-icons">email</i>: allsaintspreschoolhw@live.co.uk</p>
 
 
 
@@ -42,7 +42,7 @@ const Contactus = () => {
             <div className="card-stacked">
                <div className="card-content">
                    <p className="grey-text text-darken-2">Blackwell Hall,</p> 
-                   <p className="grey-text text-darken-2"> 90 Uxbridge Road</p>
+                   <p className="grey-text text-darken-2">90 Uxbridge Road</p>
                    <p className="grey-text text-darken-2">Harrow Weald,</p>
                    <p className="grey-text text-darken-2">HA3 6DQ</p>
                </div>
@@ -61,7 +61,7 @@ const Contactus = () => {
             </div>
             <div className="card-stacked">
                 <div className="card-content">
-                    <a href="https://www.facebook.com/pages/All-Saints-Preschool-Harrow-Weald/784189691667551">Our Face Book</a>
+                    <a href="https://www.facebook.com/pages/All-Saints-Preschool-Harrow-Weald/784189691667551">All Saints Preschool Harrow Weald</a>
                 </div>
                <div className="card-action">
                   <ul>

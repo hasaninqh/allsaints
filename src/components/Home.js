@@ -23,7 +23,7 @@ const Main = () => {
          <p className="grey-text text-darken-2">
           There are four staff with appropriate qualifications in childcare and education.
           With three staff present at any one time. As a volutary setting we are legally required to have a management committee who are our parents. We encourage parents to stay for a session to help (at their convenience). 
-          We have students from local Colleges and workplace students from local secondary schools We believe in supporting community engagement.
+          We have students from local Colleges and workplace students from local secondary schools. We believe in supporting community engagement.
           <br/>
           Please feel free to browse our website and if you have a question please contact us.
           <br/>

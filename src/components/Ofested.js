@@ -6,7 +6,7 @@ export default class Ofested extends Component {
       <div className="col s12 homeWrapper">
       <h5 className="blue-text text-lighten-2">Ofsted</h5>
       <p className="grey-text text-darken-2">
-        Ofsted Ofsted is the Office for Standards in Education, 
+        Ofsted is the Office for Standards in Education, 
         Children’s Services and Skills. They report directly to Parliament and they are independent and impartial. 
         Ofsted inspect and regulate services which care for children and young people, 
         and those providing education and skills for learners of all ages.
