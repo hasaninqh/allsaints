@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navigation = ({ fixedNav }) => {
   let classes = "pink lighten-5 blue-text text-darken-4";
@@ -15,55 +15,55 @@ const Navigation = ({ fixedNav }) => {
           <ul className="navList center blue-text text-lighten-4 s12 m12 l12  hide-on-med-and-down">
             {fixedNav && (
               <li>
-                <Link to="/" className="blue-text text-lighten-2">
+                <NavLink to="/" className="blue-text text-lighten-2" activeClassName="nav-active">
                   IMAGE
-            </Link>
+            </NavLink>
               </li>
             )}
             <li>
-              <Link to="/" className="blue-text text-lighten-2">
+              <NavLink exact to="/" className="blue-text text-lighten-2" activeClassName="nav-active">
                 Home
-          </Link>
+          </NavLink>
             </li>
             <li>
-              <Link to="/Earlyyears" className="blue-text text-lighten-2">
-                Early tyears foundation stage
-          </Link>
+              <NavLink to="/Earlyyears" className="blue-text text-lighten-2" activeClassName="nav-active">
+                Early years foundation stage
+          </NavLink>
             </li>
             <li>
-              <Link to="/Ofested" className="blue-text text-lighten-2">
+              <NavLink to="/Ofested" className="blue-text text-lighten-2" activeClassName="nav-active">
                 Ofsted
-          </Link>
+          </NavLink>
             </li>
             <li>
-              <Link to="/Funding" className="blue-text text-lighten-2">
+              <NavLink to="/Funding" className="blue-text text-lighten-2" activeClassName="nav-active">
                 Funding
-          </Link>
+          </NavLink>
             </li>
             <li>
-              <Link to="/Testimonials" className="blue-text text-lighten-2">
+              <NavLink to="/Testimonials" className="blue-text text-lighten-2" activeClassName="nav-active">
                 Testimonials
-          </Link>
+          </NavLink>
             </li>
             <li>
-              <Link to="/Fundraising" className="blue-text text-lighten-2">
+              <NavLink to="/Fundraising" className="blue-text text-lighten-2" activeClassName="nav-active">
                 Fundraising
-          </Link>
+          </NavLink>
             </li>
             <li>
-              <Link to="/Gallery" className="blue-text text-lighten-2">
+              <NavLink to="/Gallery" className="blue-text text-lighten-2" activeClassName="nav-active">
                 Gallery
-          </Link>
+          </NavLink>
             </li>
             <li>
-              <Link to="/Termdates" className="blue-text text-lighten-2">
+              <NavLink to="/Termdates" className="blue-text text-lighten-2" activeClassName="nav-active">
                 Term Dates
-          </Link>
+          </NavLink>
             </li>
             <li>
-              <Link to="/Contactus" className="blue-text text-lighten-2">
+              <NavLink to="/Contactus" className="blue-text text-lighten-2" activeClassName="nav-active">
                 Contact Us
-          </Link>
+          </NavLink>
             </li>
           </ul>
         </div>
@@ -71,49 +71,49 @@ const Navigation = ({ fixedNav }) => {
 
       <ul className="sidenav" id="mobile-demo">
         <li>
-          <Link to="/" className="blue-text text-lighten-2 sidenav-close">
+          <NavLink exact to="/" className="blue-text text-lighten-2 sidenav-close" activeClassName="nav-active">
             Home
-            </Link>
+            </NavLink>
         </li>
         <li>
-          <Link to="/Earlyyears" className="blue-text text-lighten-2 sidenav-close">
+          <NavLink to="/Earlyyears" className="blue-text text-lighten-2 sidenav-close" activeClassName="nav-active">
             Early tyears foundation stage
-            </Link>
+            </NavLink>
         </li>
         <li>
-          <Link to="/Ofested" className="blue-text text-lighten-2 sidenav-close">
+          <NavLink to="/Ofested" className="blue-text text-lighten-2 sidenav-close" activeClassName="nav-active">
             Ofsted
-            </Link>
+            </NavLink>
         </li>
         <li>
-          <Link to="/Funding" className="blue-text text-lighten-2 sidenav-close">
+          <NavLink to="/Funding" className="blue-text text-lighten-2 sidenav-close">
             Funding
-            </Link>
+            </NavLink>
         </li>
         <li>
-          <Link to="/Testimonials" className="blue-text text-lighten-2 sidenav-close">
+          <NavLink to="/Testimonials" className="blue-text text-lighten-2 sidenav-close" activeClassName="nav-active">
             Testimonials
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/Fundraising" className="blue-text text-lighten-2 sidenav-close">
+          <NavLink to="/Fundraising" className="blue-text text-lighten-2 sidenav-close" activeClassName="nav-active">
             Fundraising
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/Gallery" className="blue-text text-lighten-2 sidenav-close">
+          <NavLink to="/Gallery" className="blue-text text-lighten-2 sidenav-close" activeClassName="nav-active">
             Gallery
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/Termdates" className="blue-text text-lighten-2 sidenav-close">
+          <NavLink to="/Termdates" className="blue-text text-lighten-2 sidenav-close" activeClassName="nav-active">
             Term Dates
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/Contactus" className="blue-text text-lighten-2 sidenav-close">
+          <NavLink to="/Contactus" className="blue-text text-lighten-2 sidenav-close" activeClassName="nav-active">
             Contact Us
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </Fragment>
