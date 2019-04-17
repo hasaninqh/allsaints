@@ -3,22 +3,22 @@ import "../App.css";
 import { withStyles } from "@material-ui/core/styles";
 import Dialog from "@material-ui/core/Dialog";
 import MuiDialogContent from "@material-ui/core/DialogContent";
-import image1 from "../images/all_saints_pre-school_hw_2016_17007001.jpg";
-import image2 from "../images/all_saints_pre-school_hw_2016_17007002.jpg";
-import image3 from "../images/all_saints_pre-school_hw_2016_17007003.jpg";
-import image4 from "../images/all_saints_pre-school_hw_2016_17007004.jpg";
-import image5 from "../images/all_saints_pre-school_hw_2016_17007005.jpg";
-import image6 from "../images/all_saints_pre-school_hw_2016_17007006.jpg";
-import image7 from "../images/all_saints_pre-school_hw_2016_17007007.jpg";
-import image8 from "../images/all_saints_pre-school_hw_2016_17007008.jpg";
-import image9 from "../images/all_saints_pre-school_hw_2016_17007009.jpg";
-import image10 from "../images/all_saints_pre-school_hw_2016_17007010.jpg";
-import image11 from "../images/all_saints_pre-school_hw_2016_17007011.jpg";
-import image12 from "../images/all_saints_pre-school_hw_2016_17007012.jpg";
-import image13 from "../images/all_saints_pre-school_hw_2016_17007013.jpg";
-import image14 from "../images/all_saints_pre-school_hw_2016_17007014.jpg";
-import image15 from "../images/all_saints_pre-school_hw_2016_17007015.jpg";
-import image16 from "../images/all_saints_pre-school_hw_2016_17007028.jpg";
+import image1 from "../images/largerVersion/DSC04408.JPG";
+import image2 from "../images/largerVersion/DSC04441.jpg";
+import image3 from "../images/largerVersion/DSC04444.JPG";
+import image4 from "../images/largerVersion/DSC04445.jpg";
+import image5 from "../images/largerVersion/DSC04451.jpg";
+import image6 from "../images/largerVersion/DSC04455.JPG";
+import image7 from "../images/largerVersion/DSC04456.jpg";
+import image8 from "../images/largerVersion/DSC04457.jpg";
+import image9 from "../images/largerVersion/DSC04461.jpg";
+import image10 from "../images/largerVersion/DSC04464.jpg";
+import image11 from "../images/largerVersion/DSC04470.JPG";
+import image12 from "../images/largerVersion/DSC04471.JPG";
+// import image13 from "../images/largerVersion/all_saints_pre-school_hw_2016_17007013.jpg";
+// import image14 from "../images/largerVersion/all_saints_pre-school_hw_2016_17007014.jpg";
+// import image15 from "../images/largerVersion/all_saints_pre-school_hw_2016_17007015.jpg";
+// import image16 from "../images/largerVersion/all_saints_pre-school_hw_2016_17007028.jpg";
 const DialogContent = withStyles(theme => ({
   root: {
     margin: 0,
@@ -66,6 +66,7 @@ export default class Gallery extends Component {
               id="myImg"
               src={image1}
               alt="Cinque Terre"
+              className="thumpNail"
               onClick={(e) =>  {
                  console.log('uiii',e)
                  this.handleClick(1)
@@ -106,6 +107,7 @@ export default class Gallery extends Component {
             <img
               src={image2}
               id="myImg"
+              className="thumpNail"
               alt="Cinque Terre"
               width="600"
               height="400"
@@ -150,6 +152,7 @@ export default class Gallery extends Component {
             <img
               src={image3}
               id="myImg"
+              className="thumpNail"
               alt="Cinque Terre"
               width="600"
               height="400"
@@ -189,6 +192,7 @@ export default class Gallery extends Component {
           <div className="gallery">
             <img
               src={image4}
+              className="thumpNail"
               id="myImg"
               alt="Cinque Terre"
               width="600"
@@ -230,6 +234,7 @@ export default class Gallery extends Component {
           <div className="gallery">
             <img
               src={image6}
+              className="thumpNail"
               id="myImg"
               alt="Cinque Terre"
               width="600"
@@ -271,6 +276,7 @@ export default class Gallery extends Component {
           <div className="gallery">
             <img
               src={image7}
+              className="thumpNail"
               id="myImg"
               alt="Cinque Terre"
               width="600"
@@ -312,6 +318,7 @@ export default class Gallery extends Component {
           <div className="gallery">
             <img
               src={image8}
+              className="thumpNail"
               id="myImg"
               alt="Cinque Terre"
               width="600"
@@ -353,6 +360,7 @@ export default class Gallery extends Component {
           <div className="gallery">
             <img
               src={image9}
+              className="thumpNail"
               id="myImg"
               alt="Cinque Terre"
               width="600"
@@ -394,6 +402,7 @@ export default class Gallery extends Component {
           <div className="gallery">
             <img
               src={image10}
+              className="thumpNail"
               id="myImg"
               alt="Cinque Terre"
               width="600"
@@ -435,6 +444,7 @@ export default class Gallery extends Component {
           <div className="gallery">
             <img
               src={image11}
+              className="thumpNail"
               id="myImg"
               alt="Cinque Terre"
               width="600"
@@ -476,6 +486,7 @@ export default class Gallery extends Component {
           <div className="gallery">
             <img
               src={image12}
+              className="thumpNail"
               id="myImg"
               alt="Cinque Terre"
               width="600"
@@ -513,7 +524,7 @@ export default class Gallery extends Component {
           </div>
         </div>
 
-        <div className="responsive">
+        {/* <div className="responsive">
           <div className="gallery">
             <img
               src={image13}
@@ -535,21 +546,21 @@ export default class Gallery extends Component {
                //  this.myModal[modal.id] = modal.id;
               }}
             >
-              {/* The Close Button */}
+              
               <span className="close" onClick={(e) =>  {
                 console.log('uiii',e)
                 this.handleClose(13)
               }}>
                 &times;
               </span>
-              {/* Modal Content (The Image) */}
+            
               <img
                 src={image13}
                 className="modal-content"
                 id="img01"
                 alt="children"
               />
-              {/* Modal Caption (Image Text) */}
+             
             </div>
           </div>
         </div>
@@ -576,14 +587,14 @@ export default class Gallery extends Component {
                //  this.myModal[modal.id] = modal.id;
               }}
             >
-              {/* The Close Button */}
+            
               <span className="close" onClick={(e) =>  {
                
                 this.handleClose(14)
               }}>
                 &times;
               </span>
-              {/* Modal Content (The Image) */}
+              {/* Modal Content (The Image) *
               <img
                 src={image14}
                 id="myImg"
@@ -591,10 +602,10 @@ export default class Gallery extends Component {
                 id="img01"
                 alt="children"
               />
-              {/* Modal Caption (Image Text) */}
+              
             </div>
           </div>
-        </div>
+        </div>}
 
         <div className="responsive">
           <div className="gallery">
@@ -618,21 +629,21 @@ export default class Gallery extends Component {
                //  this.myModal[modal.id] = modal.id;
               }}
             >
-              {/* The Close Button */}
+             
               <span className="close" onClick={(e) =>  {
                 console.log('uiii',e)
                 this.handleClose(15)
               }}>
                 &times;
               </span>
-              {/* Modal Content (The Image) */}
+              
               <img
                 src={image15}
                 className="modal-content"
                 id="img01"
                 alt="children"
               />
-              {/* Modal Caption (Image Text) */}
+          
             </div>
           </div>
         </div>
@@ -659,24 +670,24 @@ export default class Gallery extends Component {
                //  this.myModal[modal.id] = modal.id;
               }}
             >
-              {/* The Close Button */}
+         
               <span className="close" onClick={(e) =>  {
                 console.log('uiii',e)
                 this.handleClose(16)
               }}>
                 &times;
               </span>
-              {/* Modal Content (The Image) */}
+            
               <img
                 src={image16}
                 className="modal-content"
                 id="img01"
                 alt="children"
               />
-              {/* Modal Caption (Image Text) */}
+              
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="clearfix" />
       </div>
