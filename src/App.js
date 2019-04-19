@@ -13,9 +13,6 @@ import Fundraising from "./components/Fundraising";
 import Gallery from "./components/Gallery";
 import Termdates from "./components/Termdates";
 import Contactus from "./components/Contactus";
-import Child1 from "./images/all_saints_pre-school_hw_2016_17009015.jpg";
-import Child2 from "./images/all_saints_pre-school_hw_2016_17009017.jpg";
-import Child3 from "./images/all_saints_pre-school_hw_2016_17009018.jpg";
 import DisableFriendly from "./images/all_saints_pre-school_hw_2016_17001010.jpg";
 class App extends Component {
   render() {
@@ -25,25 +22,6 @@ class App extends Component {
           <div className="sm-col-bg">
             <Header />
             <div className="container s12 m6 l8 white">
-              {/* <div className="container s12"> */}
-              <div id="imagesWrapper" className="s12 center">
-                <img
-                  src={Child1}
-                  alt="child image1"
-                  className="circle z-depth-5"
-                />
-                <img
-                  src={Child2}
-                  alt="child image2"
-                  className="circle z-depth-5"
-                />
-                <img
-                  src={Child3}
-                  alt="child image3"
-                  className="circle z-depth-5"
-                />
-              </div>
-              {/* </div>/ */}
               <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/Earlyyears" component={Earlyyears} />

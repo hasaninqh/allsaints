@@ -28,7 +28,7 @@
 
 .homeWrapper {
     padding:20px;
-    margin: 15px;
+    /* margin: 15px; */
 
 }
 
@@ -91,7 +91,7 @@
   max-width: 700px;
   max-height: 500px;
   height: 100%;
-  background-color: aqua;
+ 
 }
 /* Add Animation - Zoom in the Modal */
 .modal-content, #caption { 
