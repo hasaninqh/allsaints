@@ -9,9 +9,9 @@ const Navigation = ({ fixedNav }) => {
         className={fixedNav ? classes + " fixed-nav-top" : classes}
         style={{ textAlign: "center" }}
       >
-        <div class="nav-wrapper">
+        <div className="nav-wrapper">
 
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
           <ul className="navList center blue-text text-lighten-4 s12 m12 l12  hide-on-med-and-down">
             {fixedNav && (
               <li>
@@ -69,7 +69,7 @@ const Navigation = ({ fixedNav }) => {
         </div>
       </nav>
 
-      <ul class="sidenav" id="mobile-demo">
+      <ul className="sidenav" id="mobile-demo">
         <li>
           <Link to="/" className="blue-text text-lighten-2 sidenav-close">
             Home
