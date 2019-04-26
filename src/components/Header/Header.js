@@ -1,7 +1,8 @@
 import React, { Component } from "react";
+import {Link} from "react-router-dom";
 import Navigation from "../Navigation";
 import Logo from "../../images/all_saints_pre-school_hw_2016_17009026.png";
-
+import "./Header.css";
 export default class Header extends Component {
   state = {
     fixdeNav: false
@@ -25,7 +26,10 @@ export default class Header extends Component {
   render() {
     return (
       <div className="col pink lighten-5 s12 m12 l12  head">
-        <img ref={this.navRef} src={Logo} className="brand-logo center" alt="logo" />
+        <div className="nav_top">
+          <img ref={this.navRef} src={Logo} className="brand-logo center" alt="logo" />
+          <h6 className="top_message">We are accepting vacancies for September 2019 Intake. Please <Link to="Contactus">contact us!</Link></h6>
+        </div>
         <Navigation fixedNav={this.state.fixedNav} />
       </div>
     );

@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import Child1 from "../images/all_saints_pre-school_hw_2016_17009015.jpg";
-import Child2 from "../images/all_saints_pre-school_hw_2016_17009017.jpg";
-import Child3 from "../images/all_saints_pre-school_hw_2016_17009018.jpg";
+import Child1 from "../images/frontcircle/DSC03792.JPG";
+import Child2 from "../images/frontcircle/DSC04247.jpg";
+import Child3 from "../images/frontcircle/DSC04377.JPG";
 import "../App.css";
 const Main = () => {
   return (
@@ -43,13 +43,14 @@ const Main = () => {
           <p className="grey-text text-darken-2">Thursday 9.30-12.30.</p>
           <p className="grey-text text-darken-2">Friday 9.30-12.30.</p>
           <br />
-          <i className="grey-text text-darken-2">Lunch hours would be provided based on parents interest</i>
+          <i className="grey-text grey-bold text-darken-2">Lunch hours would be provided based on parents interest</i>
           <p className="grey-text text-darken-2">
             There are four staff with appropriate qualifications in childcare and education.
             With three staff present at any one time. As a volutary setting we are legally required to have a management committee who are our parents. We encourage parents to stay for a session to help (at their convenience).
             We have students from local Colleges and workplace students from local secondary schools. We believe in supporting community engagement.
           <br />
             Please feel free to browse our website and if you have a question please contact us.
+          <br />
           <br />
             Kind regards,<br />
             Deepa Sharma - Preschool Manager

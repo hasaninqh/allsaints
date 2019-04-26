@@ -1,0 +1,10 @@
+.nav_top{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 1rem;
+}
+.top_message{
+    align-self: center;
+    font-size: 1.5rem;
+    color: red;
+}
