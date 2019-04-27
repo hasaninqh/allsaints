@@ -8,3 +8,30 @@
     font-size: 1.5rem;
     color: red;
 }
+.flex-nav{
+    display: flex !important;
+    justify-content: space-evenly;
+}
+@media only screen and (max-width: 993px){
+    .flex-nav {
+      display: none !important;
+  }
+}
+@media only screen and (max-width: 700px){
+    .top_message{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .nav_top{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .nav-img{
+        align-self: flex-start;
+    }
+}
+@media only screen and (min-width: 911px){
+    nav li a.blue-text.text-lighten-2{
+      padding: 0 6px !important;
+    }
+}

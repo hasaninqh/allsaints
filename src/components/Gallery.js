@@ -68,7 +68,6 @@ export default class Gallery extends Component {
               alt="Cinque Terre"
               className="thumpNail"
               onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClick(1)
               }}
               name="myModal1"
@@ -112,7 +111,6 @@ export default class Gallery extends Component {
               width="600"
               height="400"
               onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClick(2)
               }}
 
@@ -130,7 +128,6 @@ export default class Gallery extends Component {
             >
               {/* The Close Button */}
               <span className="close" onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClose(2)
               }}>
                 &times;
@@ -157,7 +154,6 @@ export default class Gallery extends Component {
               width="600"
               height="400"
               onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClick(3)
               }}
             />
@@ -165,13 +161,11 @@ export default class Gallery extends Component {
               id="myModal3"
               className="modal"
               ref={modal => {
-                console.log("nnn");
                 this.myModal3 = modal;
               }}
             >
               {/* The Close Button */}
               <span className="close" onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClose(3)
               }}>
                 &times;
@@ -198,7 +192,6 @@ export default class Gallery extends Component {
               width="600"
               height="400"
               onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClick(4)
               }}
             />
@@ -213,7 +206,6 @@ export default class Gallery extends Component {
             >
               {/* The Close Button */}
               <span className="close" onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClose(4)
               }}>
                 &times;
@@ -240,7 +232,6 @@ export default class Gallery extends Component {
               width="600"
               height="400"
               onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClick(6)
               }}
             />
@@ -255,7 +246,6 @@ export default class Gallery extends Component {
             >
               {/* The Close Button */}
               <span className="close" onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClose(6)
               }}>
                 &times;
@@ -282,7 +272,6 @@ export default class Gallery extends Component {
               width="600"
               height="400"
               onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClick(7)
               }}
             />
@@ -297,7 +286,6 @@ export default class Gallery extends Component {
             >
               {/* The Close Button */}
               <span className="close" onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClose(7)
               }}>
                 &times;
@@ -324,7 +312,6 @@ export default class Gallery extends Component {
               width="600"
               height="400"
               onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClick(8)
               }}
             />
@@ -339,7 +326,6 @@ export default class Gallery extends Component {
             >
               {/* The Close Button */}
               <span className="close" onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClose(8)
               }}>
                 &times;
@@ -366,7 +352,6 @@ export default class Gallery extends Component {
               width="600"
               height="400"
               onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClick(9)
               }}
             />
@@ -381,7 +366,6 @@ export default class Gallery extends Component {
             >
               {/* The Close Button */}
               <span className="close" onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClose(9)
               }}>
                 &times;
@@ -408,7 +392,6 @@ export default class Gallery extends Component {
               width="600"
               height="400"
               onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClick(10)
               }}
             />
@@ -423,7 +406,6 @@ export default class Gallery extends Component {
             >
               {/* The Close Button */}
               <span className="close" onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClose(10)
               }}>
                 &times;
@@ -450,7 +432,6 @@ export default class Gallery extends Component {
               width="600"
               height="400"
               onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClick(11)
               }}
             />
@@ -465,7 +446,6 @@ export default class Gallery extends Component {
             >
               {/* The Close Button */}
               <span className="close" onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClose(11)
               }}>
                 &times;
@@ -492,7 +472,6 @@ export default class Gallery extends Component {
               width="600"
               height="400"
               onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClick(12)
               }}
             />
@@ -507,7 +486,6 @@ export default class Gallery extends Component {
             >
               {/* The Close Button */}
               <span className="close" onClick={(e) => {
-                console.log('uiii', e)
                 this.handleClose(12)
               }}>
                 &times;

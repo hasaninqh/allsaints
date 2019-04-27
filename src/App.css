@@ -67,15 +67,10 @@ text-align: justify;
 .navList{
   width: 100%;
   background-color: red!important ;
-
-
 }
  @media only screen and (max-width: 1009px) {
-  /* .navList li{
-    width:100%
-  } */ */
   .navWrapper{
-    text-align: left;
+    text-align: center;
   }
   
 }
@@ -172,7 +167,6 @@ div.gallery {
     float: left;
     width: 24.99999%;
   }
-  
   @media only screen and (max-width: 700px) {
     .responsive {
       width: 49.99999%;
