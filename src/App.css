@@ -39,11 +39,11 @@ text-justify: inter-word;
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    max-width: 80%;
+    max-width: 60%;
 }
 @media only screen and (min-width: 700px){
   img.circle {
-    max-width: 30%;
+    max-width: 25%;
 }
 }
 

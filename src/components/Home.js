@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Link } from "react-router-dom";
 import Child1 from "../images/frontcircle/DSC03792.JPG";
 import Child2 from "../images/frontcircle/DSC04247.jpg";
 import Child3 from "../images/frontcircle/DSC04377.JPG";
@@ -28,6 +29,9 @@ const Main = () => {
       {/* </div>/ */}
       <div className="row">
         <div className="col s12 homeWrapper">
+          <div className="alert_message">
+            <h6 className="top_message">We are accepting vacancies for September 2019 Intake. <Link to="Contactus"> Contact us!</Link></h6>
+          </div>
           <h5 className="blue-text text-lighten-2">Welcome to All Saints Pre-School Online</h5>
           <p className="grey-text text-darken-2">
             We are a voluntary Church of England pre-school based in an accessible for all, single story Church hall in a residential area. We welcome all faiths and support children with different needs.
@@ -38,7 +42,7 @@ const Main = () => {
           </p>
           <h5 className="blue-text text-lighten-2">Opening hours: </h5>
           <p className="grey-text text-darken-2">Monday 9.30-12.30.</p>
-          <p className="grey-text text-darken-2">Tuesday 9.30-12.30..</p>
+          <p className="grey-text text-darken-2">Tuesday 9.30-12.30.</p>
           <p className="grey-text text-darken-2">Wednesday 9.30-12.30.</p>
           <p className="grey-text text-darken-2">Thursday 9.30-12.30.</p>
           <p className="grey-text text-darken-2">Friday 9.30-12.30.</p>
@@ -49,9 +53,10 @@ const Main = () => {
             With three staff present at any one time. As a volutary setting we are legally required to have a management committee who are our parents. We encourage parents to stay for a session to help (at their convenience).
             We have students from local Colleges and workplace students from local secondary schools. We believe in supporting community engagement.
           <br />
+            <br />
             Please feel free to browse our website and if you have a question please contact us.
           <br />
-          <br />
+            <br />
             Kind regards,<br />
             Deepa Sharma - Preschool Manager
          </p>
